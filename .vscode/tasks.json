@@ -3,14 +3,16 @@
         {
             "type": "cppbuild",
             "label": "C/C++: gcc.exe сборка активного файла",
-            "command": "C:/dev/msys64/mingw64/bin/gcc.exe",
+            "command": "C:/dev/msys64/mingw64/bin/g++.exe",
             "args": [
                 "-fdiagnostics-color=always",
                 "-g",
-                "${file}",
-                "-o",
-                "${fileDirname}\\${fileBasenameNoExtension}.exe",
-                ""
+                "C:/dev/IT_Academy/Module 2/Calculate_factorial/Main.cpp",
+                 "C:/dev/IT_Academy/Module 2/Calculate_factorial/Calculate_factorial.cpp",
+                  "-o",
+                 "C:/dev/IT_Academy/Module 2/Calculate_factorial/Main.exe",
+                "-Wall",
+                "-Werror"
             ],
             "options": {
                 "cwd": "C:/dev/msys64/mingw64/bin"
