@@ -5,6 +5,7 @@
 
 #include <iostream>
 #include "Calculate_factorial.h"
+#define FUNC_TYPE_INT ;
 
 using namespace std;
 

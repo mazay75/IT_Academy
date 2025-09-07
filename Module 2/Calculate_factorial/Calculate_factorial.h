@@ -2,7 +2,8 @@
 //классов, функций, переменных и других элементов
 
 #pragma once
-#define TYPE_VALUE;
+#define FUNC_TYPE_FLOAT ;
+#define FUNC_TYPE_INT ;
 
 int CalcFactorial (int a) ;
-
+float CalcFactorial (int a) ;
