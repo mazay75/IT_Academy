@@ -1,0 +1,31 @@
+{
+    "tasks": [
+        {
+            "type": "cppbuild",
+            "label": "C/C++: gcc.exe сборка активного файла",
+            "command": "C:/dev/msys64/mingw64/bin/g++.exe",
+            "args": [
+                "-fdiagnostics-color=always",
+                "-g",
+                "C:/dev/IT_Academy/Module 2/Calculate_factorial/Main.cpp",
+                 "C:/dev/IT_Academy/Module 2/Calculate_factorial/Calculate_factorial.cpp",
+                  "-o",
+                 "C:/dev/IT_Academy/Module 2/Calculate_factorial/Main.exe",
+                "-Wall",
+                "-Werror"
+            ],
+            "options": {
+                "cwd": "C:/dev/msys64/mingw64/bin"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "detail": "Задача создана отладчиком."
+        }
+    ],
+    "version": "2.0.0"
+}
