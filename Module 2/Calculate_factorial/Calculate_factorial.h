@@ -5,5 +5,10 @@
 #define FUNC_TYPE_FLOAT ;
 #define FUNC_TYPE_INT ;
 
-int CalcFactorial (int a) ;
-float CalcFactorial (int a) ;
+#ifdef FUNC_TYPE_FLOAT
+    float CalcFactorial (int a);
+#elif FUNC_TYPE_INT   
+    int CalcFactorial (int a);
+#else 
+    int CalcFactorial (int a);
+#endif 

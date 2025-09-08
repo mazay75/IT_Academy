@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/dev/IT_Academy/Module 2",
-      "program": "c:/dev/IT_Academy/Module 2/build/Debug/outDebug",
+      "cwd": "c:/dev/IT_Academy/Module 2/Calculate_factorial",
+      "program": "c:/dev/IT_Academy/Module 2/Calculate_factorial/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [

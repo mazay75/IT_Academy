@@ -16,16 +16,23 @@ using namespace std;
     cout << "факториал " << a << " = "s << n << endl;
     return n;
 }
-#endif
-
-#ifdef FUNC_TYPE_INT 
-int CalcFactorial (int a) {
-    int n = 1;
-    for (int i = 1; i <= a; ++i) {
-        n = n * i;   
+#elif FUNC_TYPE_INT 
+    int CalcFactorial (int a) {
+        int n = 1;
+        for (int i = 1; i <= a; ++i) {
+            n = n * i;   
+        }
+        cout << "факториал " << a << " = "s << n << endl;
+        return n;     
     }
-    cout << "факториал " << a << " = "s << n << endl;
-    return n;     
-}
+#else 
+    int CalcFactorial (int a) {
+        int n = 1;
+        for (int i = 1; i <= a; ++i) {
+            n = n * i;   
+        }
+        cout << "факториал " << a << " = "s << n << endl;
+        return n;     
+
 #endif
 

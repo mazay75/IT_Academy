@@ -5,11 +5,11 @@
 
 #include <iostream>
 #include "Calculate_factorial.h"
-#define FUNC_TYPE_INT ;
+#define FUNC_TYPE_FLOAT ;
 
 using namespace std;
 
-int main(){
+int main() {
     int a1 = 5;
     CalcFactorial (a1);
     return 0;
